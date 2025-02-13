@@ -5,4 +5,9 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  server: {
+    proxy: {
+      "/api": "https://server-mbg1cnpdw-gopi-murthys-projects.vercel.app", // 👈 Update with your backend URL
+    },
+  },
 });
