@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { supabase } from "../Utils/Supabase";
+import { supabase } from "../Utils/supabase";
 import { Trash2 } from "lucide-react"; 
 
 const Main = () => {
