@@ -71,20 +71,6 @@ npm install
 npm start
 ```
 
-### 4️⃣ Deploy to Vercel
-
-```sh
-vercel --prod
-```
-
-## 🔥 API Endpoints
-
-| Method | Endpoint       | Description                    |
-| ------ | -------------- | ------------------------------ |
-| `POST` | `/api/upload`  | Upload audio for transcription |
-| `GET`  | `/api/live`    | Start live transcription       |
-| `GET`  | `/api/history` | Fetch saved transcriptions     |
-
 ## 📜 License
 
 This project is **open-source** and free to use.
@@ -92,9 +78,3 @@ This project is **open-source** and free to use.
 ## 🙌 Contributing
 
 Feel free to fork this repository and contribute to the project.
-
-## 📞 Contact
-
-For any issues or feature requests, open an issue in the GitHub repository.
-
-📧 **Email:** [gopimurthy@example.com](mailto:gopimurthy@example.com) 🔗 **GitHub:** [Gopimurthyv](https://github.com/Gopimurthyv)
