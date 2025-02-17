@@ -2,12 +2,12 @@
   "name": "server",
   "version": "1.0.0",
   "description": "express server",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node api/index.js",
+    "start": "node api/server.js",
     "vercel-build": "npm install",
-    "dev": "nodemon api/index.js"
+    "dev": "nodemon api/server.js"
   },
   "author": "gopimurthy",
   "license": "ISC",
