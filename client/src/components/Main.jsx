@@ -122,7 +122,7 @@ const Main = () => {
         formData.append("audio", audioFile);
 
         try {
-            const response = await fetch("http://localhost:3030/transcribe", {
+            const response = await fetch("https://server-ruby-seven.vercel.app/transcribe", {
                 method: "POST",
                 body: formData,
             });
